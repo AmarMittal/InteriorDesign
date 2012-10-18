@@ -5,14 +5,17 @@ body{
     font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
     color: #fff
 }
+/* Main Part Start Here */
 .main{
     width:100%;
     float:left
 }
+/* Header Part Start Here */
 .header{
     width:980px;
     margin: 0 auto
 }
+/* Navigation Part Start Here */
 .navigation{
     width:980px;
     float:left
@@ -48,6 +51,7 @@ body{
     background-color:#000;
     color:#fff
 }
+/* Logo Part Start Here */
 .logo{
     width:345px;
     float:left;
@@ -72,6 +76,7 @@ body{
     font-size: 28px;
     letter-spacing: -1px
 }
+/* Logo Part End Here */
 .serchBox{
     width: 200px;
     float: right;
@@ -90,6 +95,8 @@ body{
     min-height: 30px;
     width: 35px
 }
+/* Header Part End Here */
+/* Contain Part Start Here */
 .contain{
     width: 100%;
     float:left; background: url("../Image/bg-top.jpg") repeat-x;
@@ -100,6 +107,7 @@ body{
     width:980px;
     margin: 0 auto
 }
+/* Silder Part Start Here */
 .frame{
     background-color: #fff;
     float:left;
@@ -132,6 +140,7 @@ body{
     vertical-align: top;
     cursor: pointer
 }
+/* Silder Part End Here */
 .silderFooter{
     width:980px;
     float:left;
@@ -140,27 +149,28 @@ body{
 .hello{
     width:200px;
     float:left;
-    margin: 10px 0 0 20px;
+    margin: 10px 0 0 20px
 }
 .hello h2{
     color:#FF9601;
     font-size: 49px;
-    margin-left: 25px;
-
+    margin-left: 25px
 }
 .interiorDesign{
     width: 690px;
     margin: 10px 0 0 35px;
     color:#000;
-    float:left;
+    float:left
 }
-.interiorDesign p{font-size: 15px;line-height: 25px;
+.interiorDesign p{
+    font-size: 15px;
+    line-height: 25px
 }
 .ourServices{
     width:980px;
     float:left;
     margin-top: 15px;
-    margin-bottom: 60px;
+    margin-bottom: 60px
 }
 .ourService{
     width:980px;
@@ -168,27 +178,29 @@ body{
     color:#fff;
     font-size: 36px;
     margin-left: 20px;
-    font-weight: normal;
+    font-weight: normal
 
 }
 .paint{
     width:470px;
     margin:30px 0px 0px 20px;
-    float:left;
+    float:left
 }
 .frameMini{
     background-color: #fff;
     width:220px;
-    float: left;
+    float: left
 }
-.frameMini span{float: left;
-                margin:10px;}
+.frameMini span{
+    float: left;
+    margin:10px
+}
 .link{
     padding-top: 10px;
     float: left;
     margin: 0 0 0 30px;
     padding-top: 10px;
-    width: 220px;
+    width: 220px
 }
 .link ul{
     text-decoration: none
@@ -197,7 +209,7 @@ body{
     color:#FFf;
     text-decoration: none;
     font-size: 21px;
-    line-height: 26px;
+    line-height: 26px
 }
 .link a{
     color:#FF9601
@@ -240,6 +252,8 @@ body{
     background: url("../Image/quote.png") no-repeat;
     padding: 0 0 0 25px
 }
+/* Contain Part End Here */
+/* Footer Part Start Here */
 footer{
     background-color: #f1f1f1;
     width:100%;
@@ -271,7 +285,7 @@ footer{
 }
 .phoneNo{
     font-size: 42px;
-    color:#000;
+    color:#000
 }
 .networking{
     width: 280px;
@@ -299,3 +313,5 @@ footer{
     width: 57px;
     height: 46px
 }
+/* Footer Part End Here */
+/* Main Part End Here */
