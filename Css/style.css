@@ -175,10 +175,10 @@ body{
 .ourService{
     width:980px;
     float:left;
-    color:#fff;
     font-size: 36px;
     margin-left: 20px;
-    font-weight: normal
+    font-weight: normal;
+    color: #fff;
 
 }
 .paint{
@@ -315,3 +315,54 @@ footer{
 }
 /* Footer Part End Here */
 /* Main Part End Here */
+.leftPannel{
+    width:300px;
+    float:left;
+    margin:20px;
+}
+ h3{
+    font-size: 36px;
+    font-weight: normal;
+    color: #262626;
+    margin-top: 5px;
+}
+.leftPannel ul{
+    float:left;
+    margin-top: 10px;
+    list-style: none;
+}
+.leftPannel li{
+    
+    line-height: 5px;
+    padding: 11px 0px 0px 0px;
+    margin: 10px;
+    background: url("../Image/pic-1.gif") repeat-x;
+    
+}
+.leftPannel li.first{
+    
+    line-height: 5px;
+    padding: 11px 0px 0px 0px;
+    margin: 10px;
+    background: none;
+    
+}
+.leftPannel a{
+    font-size: 16px;
+    color: #262626;
+    padding:10px;
+    margin-left: 10px;
+    background: url("../Image/marker-2.gif") no-repeat scroll 0 19px transparent;
+    text-decoration: none
+    }
+.leftPannel a:hover{
+    font-size: 16px;
+    text-decoration: none;
+    color:#FF9601
+}
+.rightPannel{
+    width:600px;
+    float:right;
+    margin: 20px
+   
+}
