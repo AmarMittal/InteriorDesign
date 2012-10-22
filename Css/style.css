@@ -315,37 +315,35 @@ footer{
 }
 /* Footer Part End Here */
 /* Main Part End Here */
+/* Second Page Start Here */
+
 .leftPannel{
     width:300px;
     float:left;
-    margin:20px;
+   margin: 20px 0 35px 10px
 }
- h3{
+h3{
     font-size: 36px;
     font-weight: normal;
     color: #262626;
-    margin-top: 5px;
+    margin-top: 5px
 }
 .leftPannel ul{
     float:left;
     margin-top: 10px;
-    list-style: none;
+    list-style: none
 }
 .leftPannel li{
-    
     line-height: 5px;
     padding: 11px 0px 0px 0px;
     margin: 10px;
-    background: url("../Image/pic-1.gif") repeat-x;
-    
+    background: url("../Image/pic-1.gif") repeat-x
 }
-.leftPannel li.first{
-    
+.leftPannel li.first{    
     line-height: 5px;
     padding: 11px 0px 0px 0px;
     margin: 10px;
-    background: none;
-    
+    background: none
 }
 .leftPannel a{
     font-size: 16px;
@@ -354,15 +352,100 @@ footer{
     margin-left: 10px;
     background: url("../Image/marker-2.gif") no-repeat scroll 0 19px transparent;
     text-decoration: none
-    }
+}
 .leftPannel a:hover{
     font-size: 16px;
     text-decoration: none;
     color:#FF9601
 }
 .rightPannel{
-    width:600px;
+    width:660px;
     float:right;
-    margin: 20px
-   
+    margin: 20px 10px 0 0
 }
+.companyProfile{
+    width:660px;
+    float:left;
+    color:#000;
+    margin-top: 25px
+}
+.imgFrame{
+    width:220px;
+   border: 1px solid #E5E5E5; 
+    color: #000;
+    float: left;
+    margin-right: 20px
+}
+.imgFrame span{
+    margin:10px;
+    float:left
+}
+.color{
+   float: left;
+    margin: 0 0 0 18px;
+    width: 370px
+}
+ h4{
+    color:#FF9601;
+    font-size: 15px;
+    line-height: 18px
+}
+p{
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 15px
+}
+.color1{
+    float: left
+}
+.button{
+    background: url("../Images/button-tail.gif") repeat-x scroll 0 0 #000000;
+    color:#fff;
+    display: inline-block;
+    font-size: 18px;
+    letter-spacing: -1px;
+    line-height: 1.22em;
+    padding: 10px 20px 11px;
+    text-transform: uppercase;
+    margin-top: 20px
+}
+button a:hover{
+    background:  #FF9601
+}
+.bgMiddle{
+    width:100%;
+    color:#000
+}
+.bgMiddleBody{
+    width:980px;
+    margin:0 auto
+}
+.bgMiddleBodygrid{
+    width:300px;
+    float:left;
+    margin:10px
+}
+.bgMiddleBodygrid h4{
+    font-size: 30px;
+    color:#fff;
+    margin-top: 20px;
+    font-weight: normal
+}
+.bgMiddleBodygrid h5{
+    font-size: 20px;
+    color: #FF9601;
+    margin-top: 10px;
+    font-weight: normal
+}
+.bgMiddleBodygrid p{
+    line-height: 25px;
+    font-size: 15px;
+    margin-top: 15px;
+     color: #FF9601
+    }
+.textBox{
+    width:200px;
+    margin-top:20px;
+    float:left
+}
+/* Second Page End Here */
